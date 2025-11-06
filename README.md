@@ -88,7 +88,4 @@
   <img src="https://count.getloli.com/@:Pratham707-S?theme=booru-lewd&padding=7&scale=1&align=top&pixelated=1&darkmode=auto"  />
 </div>
 
-###
-A white circle with a dark file icon outlined in the center
-Profile Readme Generator
-Developed and maintained by Mauro de Souza
+##
