@@ -1,47 +1,74 @@
-<br clear="both">
-
-<h2 align="left">Hi 👋! My name is Pratham and I'm a MERN Stack Developer from India.</h2>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Pratham707-S&show_icons=true&include_all_commits=true&count_private=true&theme=dracula" height="160" alt="stats graph" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Pratham707-S&layout=compact&langs_count=5&theme=dracula" height="160" alt="languages graph" />
-</div>
-
-<br />
-
-<img align="right" height="120" src="https://gifsec.com/wp-content/uploads/2022/10/zenitsu-gif-13.gif" alt="Zenitsu" />
-
-### 🛠️ Languages & Tools
-
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="40" alt="javascript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" width="40" alt="typescript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" width="40" alt="python" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" width="40" alt="csharp" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" width="40" alt="cplusplus" />
-  <br><br>
-  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" width="40" alt="react" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" width="40" alt="nodejs" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="40" alt="html5" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="40" alt="css3" />
-  <br><br>
-
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" width="40" alt="docker" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" width="40" alt="figma" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="40" width="40" alt="canva" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" width="40" alt="vscode" />
-  <img src="https://skillicons.dev/icons?i=vite" height="40" width="40" alt="vite" />
-  <img src="https://skillicons.dev/icons?i=vercel" height="40" width="40" alt="vercel" />
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,23,28&height=200&section=header&text=Hi+👋,+I'm+Pratham&fontSize=40&animation=twinkling" alt="Header" />
 </p>
 
-<br clear="both">
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=F7DF1E&center=true&vCenter=true&width=500&lines=MERN+Stack+Developer+🚀;Building+the+Future+of+Web+💻;Anime+Lover+⚡" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <img align="right" height="150" src="https://gifsec.com/wp-content/uploads/2022/10/zenitsu-gif-13.gif" alt="Zenitsu" />
+</p>
 
 ---
 
-### 🌐 Connect with Me
-<p align="left">
-  <a href="https://linkedin.com/in/YOUR-USERNAME-HERE" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" height="35" width="35" alt="linkedin" />
+### ⚡ Quick About Me
+
+- 🔭 I’m currently working on Full-Stack Web Applications.
+- 🌱 I’m currently learning Advanced System Architecture.
+- 💬 Ask me about **React, Node.js, and Express**.
+- ⚡ Fun fact: Code runs on coffee and anime.
+
+---
+
+### 🛠️ My Tech Universe
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,ts,react,html,css,tailwind,nodejs,express,mongodb,docker,figma,vscode,vite,vercel&theme=dark" style="max-width: 100%; height: auto;" />
   </a>
+</p>
+
+---
+
+### 📊 GitHub Metrics (The Real Proof)
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Pratham707-S&theme=tokyonight&bg_color=1a1a24&hide_border=true" style="max-width: 100%; height: auto;" alt="activity graph" />
+</p>
+
+<p align="center" style="display: flex; justify-content: center; align-items: center; gap: 15px; flex-wrap: wrap; width: 100%;">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Pratham707-S&show_icons=true&theme=tokyonight&border_radius=12&bg_color=1a1a24&hide_border=true" style="max-width: 100%; height: auto; min-width: 280px;" alt="stats graph" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pratham707-S&theme=tokyonight&border_radius=12&bg_color=1a1a24&hide_border=true" style="max-width: 100%; height: auto; min-width: 280px;" alt="streak stats" />
+</p>
+
+---
+
+### 🏆 GitHub Trophies
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=Pratham707-S&theme=tokyonight&no-bg=true&margin-w=15" style="max-width: 100%; height: auto;" alt="Pratham707-S Trophies" />
+  </a>
+</p>
+
+---
+
+### 🌐 Let's Build Something Together
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/pratham-tiwari-962a00342/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:pratham.1226667@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+</p>
+
+<div align="left">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXN6cmNjdnduNmw0bW95cm15cW1tc3FmbWZidXBtY29pZmdreDZwaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/I7n8_YvG4F6uI/giphy.gif" height="60" alt="Running Nyan Cat" style="margin-bottom: -14px;" />
+</div>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" />
 </p>
