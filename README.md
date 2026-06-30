@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/DIMFLIX/DIMFLIX/main/assets/bunny.gif" width="200" alt="Bunny" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHJ4ZzR6ZzZtNHJ4ZzR6ZzZtNHJ4ZzR6ZzZtNHJ4ZzR6ZzZtJmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/3o7TKMGpxxHOGTdzJC/giphy.gif" width="200" alt="Bunny" />
 </p>
 
 <p align="center">
