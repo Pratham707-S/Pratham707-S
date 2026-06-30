@@ -1,6 +1,6 @@
 <div align="center">
    <p align="center">
-  <img src="https://github.com/DIMFLIX/DIMFLIX/blob/main/assets/main.gif?raw=true" width="200" alt="Bunny" />
+  <img src="https://github.com/DIMFLIX/DIMFLIX/blob/main/assets/main.gif?raw=true" width="400" alt="Bunny" />
 </p>    
     <br/>
     <br/>
