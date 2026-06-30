@@ -7,9 +7,6 @@
     <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Itim&size=40&duration=2000&pause=3000&color=E0DFF1&center=true&repeat=false&width=600&height=60&lines=Greetings%2C+wanderer!+I'm+PRATHAM!" alt="Typing SVG" /></a>
 </div>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,23,28&height=200&section=header&text=Hi+👋,+I'm+Pratham&fontSize=40&animation=twinkling" alt="Header" />
-</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=F7DF1E&center=true&vCenter=true&width=500&lines=MERN+Stack+Developer+🐬;Building+the+Future+of+Web+💻;Anime+Lover+⚡" alt="Typing SVG" />
