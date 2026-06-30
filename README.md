@@ -12,9 +12,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=F7DF1E&center=true&vCenter=true&width=500&lines=MERN+Stack+Developer+🐬;Building+the+Future+of+Web+💻;Anime+Lover+⚡" alt="Typing SVG" />
 </p>
 
-<p align="center">
-  <img align="right" height="150" src="https://gifsec.com/wp-content/uploads/2022/10/zenitsu-gif-13.gif" alt="Zenitsu" />
-</p>
+
 
 ---
 
