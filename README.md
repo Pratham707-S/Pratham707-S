@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e" alt="Banner" style="max-width: 100%; height: auto; border-radius: 12px;" />
+  <img src="https://raw.githubusercontent.com/DIMFLIX/DIMFLIX/main/assets/bunny.gif" width="200" /> alt="Banner" style="max-width: 100%; height: auto; border-radius: 12px;" />
 </p>
 
 
