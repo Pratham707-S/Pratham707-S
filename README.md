@@ -11,14 +11,13 @@
 
 </div>
 
-I enjoy turning ideas into clean, accessible interfaces and growing into a well-rounded full-stack developer. Most of my work lives at the intersection of **React**, thoughtful UI design, and practical web development.
+Full-stack developer focused on clean, scalable web products.
 
 ## About me
 
-- 🔭 Building production-minded full-stack applications, from polished interfaces to APIs and data
-- 🌱 Deepening my knowledge of system design, scalable architecture, and distributed systems
-- 💬 Interested in React, TypeScript, Node.js, API design, databases, and developer tooling
-- ⚙️ Focused on clean code, performance, maintainability, and reliable user experiences
+- 🔭 Full-stack web applications
+- 🌱 System design & scalable systems
+- ⚙️ Clean code, performance & reliability
 
 ## Tech stack
 
