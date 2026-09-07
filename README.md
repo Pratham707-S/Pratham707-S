@@ -15,21 +15,13 @@ Full-stack developer focused on clean, scalable web products.
 
 ## About me
 
-<table>
-  <tr>
-    <td valign="top">
-      <ul>
-        <li>🔭 Full-stack web applications</li>
-        <li>🌱 System design &amp; scalable systems</li>
-        <li>⚙️ Clean code, performance &amp; reliability</li>
-      </ul>
+<img align="right" src="./assets/developer-desk.gif" width="180" alt="Animated developer working at a desk" />
 
-    </td>
-    <td align="center">
-      <img src="./assets/developer-desk.gif" width="180" alt="Animated developer working at a desk" />
-    </td>
-  </tr>
-</table>
+- 🔭 Full-stack web applications
+- 🌱 System design & scalable systems
+- ⚙️ Clean code, performance & reliability
+
+<br clear="right" />
 
 ## Tech stack
 
