@@ -59,15 +59,10 @@ I enjoy turning ideas into clean, accessible interfaces and growing into a well-
 | [Video Calling App](https://github.com/Pratham707-S/video-calling-app) | An experiment in building a video-calling experience. |
 | [Portfolio](https://github.com/Pratham707-S/portfolio) | A collection of my work and experiments. |
 
-## GitHub activity
+## GitHub streak
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Pratham707-S&show_icons=true&hide_title=true&theme=tokyonight&hide_border=true" alt="Pratham's GitHub statistics" />
   <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Pratham707-S&theme=tokyonight&hide_border=true" alt="Pratham's GitHub contribution streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Pratham707-S&theme=tokyo-night&hide_border=true" alt="Pratham's contribution graph" />
 </div>
 
 ---
