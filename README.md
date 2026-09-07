@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="./assets/terminal-loop-pratham.gif" width="900" alt="Animated terminal showing pratham@dev building from first principles" />
-
 # Hey, I’m Pratham 👋
 
 ### Front-end developer building thoughtful, responsive web experiences
@@ -70,5 +68,10 @@ I enjoy turning ideas into clean, accessible interfaces and growing into a well-
 <div align="center">
 
 **Thanks for stopping by. Feel free to explore my repositories or follow along as I keep building.**
+
+<br />
+<br />
+
+<img src="./assets/terminal-loop-pratham.gif" width="900" alt="Animated terminal showing pratham@dev building from first principles" />
 
 </div>
