@@ -26,7 +26,7 @@ Full-stack developer focused on clean, scalable web products.
 
     </td>
     <td align="center">
-      <img src="./assets/octocat-about.gif" width="180" alt="Animated Octocat coding" />
+      <img src="./assets/developer-desk.gif" width="180" alt="Animated developer working at a desk" />
     </td>
   </tr>
 </table>
