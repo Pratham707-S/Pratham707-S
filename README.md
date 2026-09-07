@@ -1,8 +1,10 @@
 <div align="center">
 
+<img src="https://github.com/DIMFLIX/DIMFLIX/blob/main/assets/main.gif?raw=true" width="400" alt="Animated rabbit" />
+
 # Hey, I’m Pratham 👋
 
-### Front-end developer building thoughtful, responsive web experiences
+### Full-stack developer building thoughtful, responsive web experiences
 
 [![Profile views](https://komarev.com/ghpvc/?username=Pratham707-S&style=flat-square&color=0ea5e9)](https://github.com/Pratham707-S)
 [![GitHub followers](https://img.shields.io/github/followers/Pratham707-S?style=flat-square&color=0ea5e9)](https://github.com/Pratham707-S?tab=followers)
