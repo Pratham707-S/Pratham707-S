@@ -15,10 +15,10 @@ I enjoy turning ideas into clean, accessible interfaces and growing into a well-
 
 ## About me
 
-- 🔭 Building front-end and full-stack web projects
-- 🌱 Exploring system architecture and how scalable applications are designed
-- 💬 Happy to talk about React, Node.js, Express, and modern UI development
-- ☕ Usually improving an interface one small detail at a time
+- 🔭 Building production-minded full-stack applications, from polished interfaces to APIs and data
+- 🌱 Deepening my knowledge of system design, scalable architecture, and distributed systems
+- 💬 Interested in React, TypeScript, Node.js, API design, databases, and developer tooling
+- ⚙️ Focused on clean code, performance, maintainability, and reliable user experiences
 
 ## Tech stack
 
