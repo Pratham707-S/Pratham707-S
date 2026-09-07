@@ -74,6 +74,6 @@ I enjoy turning ideas into clean, accessible interfaces and growing into a well-
 <br />
 <br />
 
-<img src="./assets/terminal-loop-pratham.gif" width="900" alt="Animated terminal showing pratham@dev building from first principles" />
+<img src="./assets/terminal-intro-pratham.gif" width="900" alt="Animated terminal introducing Pratham as a full-stack developer" />
 
 </div>
