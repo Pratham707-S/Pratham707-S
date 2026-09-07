@@ -15,9 +15,21 @@ Full-stack developer focused on clean, scalable web products.
 
 ## About me
 
-- 🔭 Full-stack web applications
-- 🌱 System design & scalable systems
-- ⚙️ Clean code, performance & reliability
+<table>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li>🔭 Full-stack web applications</li>
+        <li>🌱 System design &amp; scalable systems</li>
+        <li>⚙️ Clean code, performance &amp; reliability</li>
+      </ul>
+
+    </td>
+    <td align="center">
+      <img src="./assets/octocat-about.gif" width="180" alt="Animated Octocat coding" />
+    </td>
+  </tr>
+</table>
 
 ## Tech stack
 
