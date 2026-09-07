@@ -11,11 +11,14 @@
 
 </div>
 
-Full-stack developer building polished web products, reliable APIs, and scalable systems.
+I enjoy turning ideas into clean, accessible interfaces and growing into a well-rounded full-stack developer. Most of my work lives at the intersection of **React**, thoughtful UI design, and practical web development.
 
-<div align="center">
-  <img src="./assets/about-me-pop.gif" width="800" alt="Animated About Me card: Full-Stack, System Design, Clean Code" />
-</div>
+## About me
+
+- 🔭 Building production-minded full-stack applications, from polished interfaces to APIs and data
+- 🌱 Deepening my knowledge of system design, scalable architecture, and distributed systems
+- 💬 Interested in React, TypeScript, Node.js, API design, databases, and developer tooling
+- ⚙️ Focused on clean code, performance, maintainability, and reliable user experiences
 
 ## Tech stack
 
