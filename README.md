@@ -69,11 +69,11 @@ I enjoy turning ideas into clean, accessible interfaces and growing into a well-
 
 <div align="center">
 
-**Thanks for stopping by. Feel free to explore my repositories or follow along as I keep building.**
-
-<br />
-<br />
-
 <img src="./assets/terminal-intro-pratham.gif" width="900" alt="Animated terminal introducing Pratham as a full-stack developer" />
+
+<br />
+<br />
+
+**Thanks for stopping by. Feel free to explore my repositories or follow along as I keep building.**
 
 </div>
