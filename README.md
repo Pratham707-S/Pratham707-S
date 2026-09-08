@@ -62,13 +62,6 @@ Full-stack developer focused on clean, scalable web products.
 | [Video Calling App](https://github.com/Pratham707-S/video-calling-app) | An experiment in building a video-calling experience. |
 | [Portfolio](https://github.com/Pratham707-S/portfolio) | A collection of my work and experiments. |
 
-## GitHub streak
-
-<div align="center">
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Pratham707-S&theme=tokyonight&hide_border=true" alt="Pratham's GitHub contribution streak" />
-</div>
-
----
 
 <div align="center">
 
