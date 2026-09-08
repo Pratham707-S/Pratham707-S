@@ -63,6 +63,14 @@ Full-stack developer focused on clean, scalable web products.
 | [Portfolio](https://github.com/Pratham707-S/portfolio) | A collection of my work and experiments. |
 
 
+## GitHub streak
+
+<div align="center">
+  <img height="165" src="./assets/github-streak.svg" alt="Pratham's GitHub contribution streak" />
+</div>
+
+---
+
 <div align="center">
 
 <img src="./assets/terminal-intro-pratham.gif" width="900" alt="Animated terminal introducing Pratham as a full-stack developer" />
