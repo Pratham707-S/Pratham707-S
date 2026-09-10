@@ -6,7 +6,7 @@
 
 ### Full-stack developer building thoughtful, responsive web experiences
 
-[![Profile views](https://komarev.com/ghpvc/?username=Pratham707-S&style=flat-square&color=0ea5e9)](https://github.com/Pratham707-S)
+[![Profile views](https://hits.sh/github.com/Pratham707-S.svg?style=flat-square&label=Profile%20views&color=0ea5e9)](https://github.com/Pratham707-S)
 [![GitHub followers](https://img.shields.io/github/followers/Pratham707-S?style=flat-square&color=0ea5e9)](https://github.com/Pratham707-S?tab=followers)
 
 </div>
