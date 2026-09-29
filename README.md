@@ -67,7 +67,7 @@ Full-stack developer focused on clean, scalable web products.
 ## ⚡ Core Philosophy
 
 <div align="center">
-  <img src="./assets/crown-of-thorns.svg" width="860" alt="Crown of Thorns Evolution Protocol Terminal" />
+  <img src="./assets/crown-of-thorns.gif" width="860" alt="Crown of Thorns Evolution Protocol Animated Terminal" />
 </div>
 
 <details>
