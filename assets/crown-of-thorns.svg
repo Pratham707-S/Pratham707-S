@@ -10,21 +10,14 @@
     <!-- Card Gradient -->
     <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#1e293b" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.85" />
     </linearGradient>
 
     <!-- Border Glow Gradient -->
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5" />
-      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.5" />
-    </linearGradient>
-
-    <!-- Accent Glow -->
-    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="50%" stop-color="#818cf8" />
-      <stop offset="100%" stop-color="#ec4899" />
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.6" />
     </linearGradient>
 
     <style>
@@ -32,16 +25,16 @@
         font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace;
       }
       
-      /* Cursor Blink Animation */
+      /* Cursor Blink */
       @keyframes blink {
         0%, 49% { opacity: 1; }
         50%, 100% { opacity: 0; }
       }
       .cursor {
-        animation: blink 1s infinite;
+        animation: blink 0.9s infinite;
       }
 
-      /* Glow Pulse for LIMITLESS */
+      /* Pulse for Limitless */
       @keyframes pulseGlow {
         0%, 100% {
           filter: drop-shadow(0 0 4px #38bdf8);
@@ -53,29 +46,29 @@
         }
       }
       .limitless-pulse {
-        animation: pulseGlow 3s ease-in-out infinite;
+        animation: pulseGlow 2.5s ease-in-out infinite;
         font-weight: bold;
       }
 
-      /* Flow Chart Node Highlight Animation */
+      /* Flowchart highlights */
       @keyframes stepHighlight {
         0%, 15% { opacity: 0.4; }
-        20%, 35% { opacity: 1; filter: drop-shadow(0 0 6px #38bdf8); }
+        20%, 35% { opacity: 1; filter: drop-shadow(0 0 8px #38bdf8); }
         40%, 100% { opacity: 0.4; }
       }
       @keyframes stepHighlight2 {
         0%, 35% { opacity: 0.4; }
-        40%, 55% { opacity: 1; filter: drop-shadow(0 0 6px #818cf8); }
+        40%, 55% { opacity: 1; filter: drop-shadow(0 0 8px #818cf8); }
         60%, 100% { opacity: 0.4; }
       }
       @keyframes stepHighlight3 {
         0%, 55% { opacity: 0.4; }
-        60%, 75% { opacity: 1; filter: drop-shadow(0 0 6px #c084fc); }
+        60%, 75% { opacity: 1; filter: drop-shadow(0 0 8px #c084fc); }
         80%, 100% { opacity: 0.4; }
       }
       @keyframes stepHighlight4 {
         0%, 75% { opacity: 0.4; }
-        80%, 98% { opacity: 1; filter: drop-shadow(0 0 10px #ec4899); }
+        80%, 98% { opacity: 1; filter: drop-shadow(0 0 12px #ec4899); }
         100% { opacity: 0.4; }
       }
 
@@ -84,15 +77,24 @@
       .node-adapt { animation: stepHighlight3 8s ease-in-out infinite; }
       .node-transcend { animation: stepHighlight4 8s ease-in-out infinite; }
 
-      /* Scanning line animation */
+      /* Scanning line */
       @keyframes scanline {
         0% { transform: translateY(0px); opacity: 0; }
-        10% { opacity: 0.15; }
-        90% { opacity: 0.15; }
+        15% { opacity: 0.2; }
+        85% { opacity: 0.2; }
         100% { transform: translateY(440px); opacity: 0; }
       }
       .scanner {
-        animation: scanline 6s linear infinite;
+        animation: scanline 5s linear infinite;
+      }
+
+      /* Execution Output Line Fade In Animation */
+      @keyframes logPulse {
+        0%, 100% { opacity: 0.9; }
+        50% { opacity: 1; filter: drop-shadow(0 0 3px #10b981); }
+      }
+      .log-live {
+        animation: logPulse 3s ease-in-out infinite;
       }
     </style>
   </defs>
@@ -172,49 +174,51 @@
 
   <text x="175" y="440" text-anchor="middle" fill="#64748b" font-size="10" class="font-mono">while True: evolve()</text>
 
-  <!-- ================= RIGHT COLUMN: CODE & SYSTEM OVERVIEW ================= -->
+  <!-- ================= RIGHT COLUMN: LIVE TERMINAL EXECUTION ================= -->
   
-  <!-- Right Top: Code Window -->
+  <!-- Right Top: Live Terminal Shell Box -->
   <rect x="350" y="56" width="488" height="255" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
   
-  <!-- Terminal Prompt -->
-  <text x="370" y="82" fill="#10b981" font-size="12" font-weight="bold" class="font-mono">$</text>
-  <text x="385" y="82" fill="#f1f5f9" font-size="12" class="font-mono">python3 -m core.crown_of_thorns</text>
-  <rect x="660" y="70" width="8" height="14" fill="#38bdf8" class="cursor" />
+  <!-- Terminal Prompt & Command Execution -->
+  <g class="font-mono">
+    <text x="370" y="82" fill="#10b981" font-size="12" font-weight="bold">❯</text>
+    <text x="388" y="82" fill="#f8fafc" font-size="12">python3 crown_of_thorns.py --exec</text>
+    <rect x="675" y="70" width="8" height="14" fill="#38bdf8" class="cursor" />
 
-  <line x1="370" y1="94" x2="820" y2="94" stroke="#334155" stroke-width="0.8" />
+    <line x1="370" y1="94" x2="820" y2="94" stroke="#334155" stroke-width="0.8" />
 
-  <!-- Code text formatted with syntax highlight colors -->
-  <g class="font-mono" font-size="11">
-    <text x="370" y="116">
-      <tspan fill="#ec4899">class</tspan> <tspan fill="#38bdf8">CrownOfThorns</tspan><tspan fill="#94a3b8">:</tspan>
-    </text>
-    <text x="388" y="134">
-      <tspan fill="#ec4899">def</tspan> <tspan fill="#818cf8">wear</tspan><tspan fill="#94a3b8">(self):</tspan>
-    </text>
-    <text x="406" y="152">
-      <tspan fill="#ec4899">while</tspan> <tspan fill="#e2e8f0">self.pain:</tspan>
-    </text>
-    <text x="424" y="170">
-      <tspan fill="#e2e8f0">self.grow(); self.bleed();</tspan> <tspan fill="#f59e0b">self.never_break()</tspan>
-    </text>
-    
-    <text x="388" y="196">
-      <tspan fill="#ec4899">def</tspan> <tspan fill="#818cf8">evolve</tspan><tspan fill="#94a3b8">(self):</tspan>
-    </text>
-    <text x="406" y="214">
-      <tspan fill="#ec4899">return</tspan> <tspan fill="#38bdf8">self.transcend()</tspan> <tspan fill="#ec4899">if</tspan> <tspan fill="#e2e8f0">self.understand()</tspan> <tspan fill="#ec4899">else</tspan> <tspan fill="#f43f5e">self.suffer()</tspan>
+    <!-- Real Live Terminal Execution Output -->
+    <text x="370" y="116" font-size="11" fill="#64748b">
+      [00:00:01] <tspan fill="#38bdf8">[INIT]</tspan> Booting CrownOfThorns protocol v2.0...
     </text>
 
-    <text x="388" y="240">
-      <tspan fill="#ec4899">def</tspan> <tspan fill="#818cf8">become_legend</tspan><tspan fill="#94a3b8">(self):</tspan>
-    </text>
-    <text x="406" y="258">
-      <tspan fill="#ec4899">return</tspan> <tspan fill="#a855f7">self.remain()</tspan> <tspan fill="#ec4899">if</tspan> <tspan fill="#94a3b8">world.forget()</tspan> <tspan fill="#ec4899">else</tspan> <tspan fill="#22c55e">self.inspire()</tspan>
+    <text x="370" y="136" font-size="11" fill="#e2e8f0">
+      [00:00:02] <tspan fill="#f59e0b">[GROW]</tspan> Calculating resistance: <tspan fill="#f43f5e">thorns.infinite()</tspan>
     </text>
 
-    <text x="370" y="286">
-      <tspan fill="#64748b"># [RUNNING] Loop unlocked: status = TRANSCENDENT</tspan>
+    <text x="370" y="156" font-size="11" fill="#e2e8f0">
+      [00:00:03] <tspan fill="#818cf8">[PAIN]</tspan> Pain absorbed ➔ Power level: <tspan fill="#f472b6" font-weight="bold">MAXIMUM</tspan>
+    </text>
+
+    <text x="370" y="176" font-size="11" fill="#e2e8f0">
+      [00:00:04] <tspan fill="#10b981">[PASS]</tspan> Break the loop ➔ <tspan fill="#38bdf8">transcendence()</tspan> triggered
+    </text>
+
+    <!-- State Result Dict -->
+    <rect x="368" y="188" width="452" height="42" rx="6" fill="#0b1120" stroke="#1e293b" stroke-width="1" />
+    <text x="378" y="205" font-size="10.5" fill="#94a3b8">
+      <tspan fill="#c084fc">return</tspan> { <tspan fill="#38bdf8">'mind'</tspan>: <tspan fill="#34d399">'beyond'</tspan>, <tspan fill="#38bdf8">'body'</tspan>: <tspan fill="#34d399">'limitless'</tspan>, <tspan fill="#38bdf8">'soul'</tspan>: <tspan fill="#34d399">'untouchable'</tspan> }
+    </text>
+    <text x="378" y="222" font-size="10.5" fill="#10b981" class="log-live">
+      ✔ STATUS: 200 OK — Legend Mode Activated.
+    </text>
+
+    <text x="370" y="254" font-size="11" fill="#f472b6">
+      [00:00:05] <tspan fill="#f59e0b">while True:</tspan> <tspan fill="#38bdf8">evolve()</tspan> <tspan fill="#64748b">// running indefinitely...</tspan>
+    </text>
+
+    <text x="370" y="282" font-size="11" fill="#10b981" font-weight="bold">
+      ❯ <tspan fill="#94a3b8">Session persistent. Monitoring active stream...</tspan>
     </text>
   </g>
 
@@ -222,7 +226,7 @@
   <rect x="350" y="323" width="488" height="135" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
   
   <text x="370" y="348" fill="#a855f7" font-size="12" font-weight="bold" class="font-mono">
-    ⚙️ SYSTEM_OVERVIEW // CORE METRICS
+    ⚙️ SYSTEM_OVERVIEW // REAL-TIME TELEMETRY
   </text>
   <line x1="370" y1="358" x2="820" y2="358" stroke="#334155" stroke-width="0.8" />
 
