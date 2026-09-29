@@ -60,7 +60,7 @@ Full-stack developer focused on clean, scalable web products.
 | [Velvet Pour](https://github.com/Pratham707-S/Velvet-Pour) | A polished web interface project. |
 | [E-commerce React Course](https://github.com/Pratham707-S/ecommerce-react-course) | E-commerce work built while learning React. |
 | [Video Calling App](https://github.com/Pratham707-S/video-calling-app) | An experiment in building a video-calling experience. |
-| [Portfolio](https://github.com/Pratham707-S/portfolio) | A collection of my work and experiments. |
+| [Portfolio](https://whoami-pratham.vercel.app/) | A collection of my work and experiments. |
 
 ---
 
