@@ -62,6 +62,105 @@ Full-stack developer focused on clean, scalable web products.
 | [Video Calling App](https://github.com/Pratham707-S/video-calling-app) | An experiment in building a video-calling experience. |
 | [Portfolio](https://github.com/Pratham707-S/portfolio) | A collection of my work and experiments. |
 
+---
+
+## 👑 The Protocol // `crown_of_thorns`
+
+```text
+      START
+        ↓
+    CHALLENGE
+        ↓
+      PAIN
+        ↓
+     GIVE UP?
+  ┌─────┴─────┐
+ YES          NO
+  ↓            ↓
+ END         ADAPT
+               ↓
+             EVOLVE
+               ↓
+             LIMIT?
+          ┌────┴────┐
+         YES        NO
+          ↓          ↓
+     TRANSCEND     EVOLVE
+```
+
+```python
+def crown_of_thorns(strength):
+    import power
+
+    # Calculate power based on strength
+    if strength == 0:
+        return power(0)
+
+    if strength < 100:
+        resistance = (100 - strength) * 2
+        thorns = grow(resistance)
+        pain = absorb(thorns)
+        return pain + strength
+
+    elif strength == 100:
+        thorns = infinite()
+        power_level = MAXIMUM
+        return transcendence()
+
+    else:
+        overflow = strength - 100
+        chaos = overflow + random()
+        return crown_of_thorns(100 + chaos)
+
+
+def transcendence():
+    state = {
+        'mind': 'beyond',
+        'body': 'limitless',
+        'soul': 'untouchable'
+    }
+    return state
+
+
+class CrownOfThorns:
+    def __init__(self):
+        self.pain = True
+        self.grow = None
+        self.destination = 'unknown'
+
+    def wear(self):
+        while self.pain:
+            self.grow()
+            self.bleed()
+            self.never_break()
+
+    def evolve(self):
+        if self.understand():
+            self.transcend()
+        else:
+            self.suffer()
+
+    def become_legend(self):
+        if world.forget():
+            self.remain()
+        else:
+            return self.inspire()
+
+
+# Break the loop, become the ????
+while True:
+    evolve()
+```
+
+```yaml
+SYSTEM_OVERVIEW:
+  mind: transcending...
+  body: evolving...
+  soul: infinite...
+  thorns: eternal...
+  power: LIMITLESS...
+```
+
 
 <div align="center">
 
