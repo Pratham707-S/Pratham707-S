@@ -66,11 +66,13 @@ Full-stack developer focused on clean, scalable web products.
 
 ## ⚡ Core Philosophy
 
-<details open>
-<summary><b>👑 SYSTEM://OVERRIDE — <code>crown_of_thorns.py</code></b> <i>(Click to toggle)</i></summary>
-<br />
+<div align="center">
+  <img src="./assets/crown-of-thorns.svg" width="860" alt="Crown of Thorns Evolution Protocol Terminal" />
+</div>
 
-> 💻 **`Terminal`** `— 🔴 🟡 🟢 zsh — system_core.py — 80x24`
+<details>
+<summary><b>🔍 View Full Protocol Code &amp; Logic (<code>crown_of_thorns.py</code>)</b></summary>
+<br />
 
 ```python
 def crown_of_thorns(strength):
@@ -134,41 +136,6 @@ class CrownOfThorns:
 # Break the loop, become the ????
 while True:
     evolve()
-```
-
-```text
-┌─────────────────────────────────────────────────────────────┐
-│                      EVOLUTION PROTOCOL                     │
-├─────────────────────────────────────────────────────────────┤
-│                           START                             │
-│                             ↓                               │
-│                         CHALLENGE                           │
-│                             ↓                               │
-│                           PAIN                              │
-│                             ↓                               │
-│                          GIVE UP?                           │
-│                       ┌─────┴─────┐                         │
-│                      YES          NO                        │
-│                       ↓            ↓                        │
-│                      END         ADAPT                      │
-│                                    ↓                        │
-│                                  EVOLVE                     │
-│                                    ↓                        │
-│                                  LIMIT?                     │
-│                               ┌────┴────┐                   │
-│                              YES        NO                  │
-│                               ↓          ↓                  │
-│                          TRANSCEND     EVOLVE               │
-└─────────────────────────────────────────────────────────────┘
-```
-
-```yaml
-SYSTEM_OVERVIEW:
-  mind:    transcending...
-  body:    evolving...
-  soul:    infinite...
-  thorns:  eternal...
-  power:   LIMITLESS...
 ```
 
 </details>

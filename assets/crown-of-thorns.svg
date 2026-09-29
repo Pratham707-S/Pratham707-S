@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 480" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <!-- Card Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Border Glow Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.5" />
+    </linearGradient>
+
+    <!-- Accent Glow -->
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <style>
+      .font-mono {
+        font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace;
+      }
+      
+      /* Cursor Blink Animation */
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      .cursor {
+        animation: blink 1s infinite;
+      }
+
+      /* Glow Pulse for LIMITLESS */
+      @keyframes pulseGlow {
+        0%, 100% {
+          filter: drop-shadow(0 0 4px #38bdf8);
+          fill: #38bdf8;
+        }
+        50% {
+          filter: drop-shadow(0 0 10px #ec4899);
+          fill: #f472b6;
+        }
+      }
+      .limitless-pulse {
+        animation: pulseGlow 3s ease-in-out infinite;
+        font-weight: bold;
+      }
+
+      /* Flow Chart Node Highlight Animation */
+      @keyframes stepHighlight {
+        0%, 15% { opacity: 0.4; }
+        20%, 35% { opacity: 1; filter: drop-shadow(0 0 6px #38bdf8); }
+        40%, 100% { opacity: 0.4; }
+      }
+      @keyframes stepHighlight2 {
+        0%, 35% { opacity: 0.4; }
+        40%, 55% { opacity: 1; filter: drop-shadow(0 0 6px #818cf8); }
+        60%, 100% { opacity: 0.4; }
+      }
+      @keyframes stepHighlight3 {
+        0%, 55% { opacity: 0.4; }
+        60%, 75% { opacity: 1; filter: drop-shadow(0 0 6px #c084fc); }
+        80%, 100% { opacity: 0.4; }
+      }
+      @keyframes stepHighlight4 {
+        0%, 75% { opacity: 0.4; }
+        80%, 98% { opacity: 1; filter: drop-shadow(0 0 10px #ec4899); }
+        100% { opacity: 0.4; }
+      }
+
+      .node-start { animation: stepHighlight 8s ease-in-out infinite; }
+      .node-pain { animation: stepHighlight2 8s ease-in-out infinite; }
+      .node-adapt { animation: stepHighlight3 8s ease-in-out infinite; }
+      .node-transcend { animation: stepHighlight4 8s ease-in-out infinite; }
+
+      /* Scanning line animation */
+      @keyframes scanline {
+        0% { transform: translateY(0px); opacity: 0; }
+        10% { opacity: 0.15; }
+        90% { opacity: 0.15; }
+        100% { transform: translateY(440px); opacity: 0; }
+      }
+      .scanner {
+        animation: scanline 6s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Outer Window Frame -->
+  <rect x="2" y="2" width="856" height="476" rx="14" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Scanning Light Line -->
+  <line x1="10" y1="40" x2="850" y2="40" stroke="#38bdf8" stroke-width="1.5" class="scanner" />
+
+  <!-- Window Header Bar -->
+  <rect x="2" y="2" width="856" height="38" rx="14" fill="#111827" />
+  <rect x="2" y="26" width="856" height="14" fill="#111827" />
+  <line x1="2" y1="40" x2="858" y2="40" stroke="#1e293b" stroke-width="1" />
+
+  <!-- macOS Window Dots -->
+  <circle cx="24" cy="20" r="6" fill="#ff5f56" />
+  <circle cx="44" cy="20" r="6" fill="#ffbd2e" />
+  <circle cx="64" cy="20" r="6" fill="#27c93f" />
+
+  <!-- Window Title -->
+  <text x="430" y="24" text-anchor="middle" fill="#94a3b8" font-size="12" class="font-mono">
+    pratham@system-core: ~/protocols/crown_of_thorns.py — zsh
+  </text>
+
+  <!-- ================= LEFT COLUMN: FLOWCHART CARD ================= -->
+  <rect x="22" y="56" width="310" height="402" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+  
+  <text x="40" y="84" fill="#38bdf8" font-size="13" font-weight="bold" class="font-mono">
+    ⚡ EVOLUTION PROTOCOL
+  </text>
+  <line x1="40" y1="94" x2="310" y2="94" stroke="#334155" stroke-width="1" />
+
+  <!-- Node 1: START -->
+  <g class="node-start">
+    <rect x="115" y="112" width="120" height="28" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1" />
+    <text x="175" y="130" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold" class="font-mono">START</text>
+  </g>
+  <line x1="175" y1="140" x2="175" y2="158" stroke="#64748b" stroke-width="1.5" />
+  <polygon points="175,162 171,154 179,154" fill="#64748b" />
+
+  <!-- Node 2: CHALLENGE / PAIN -->
+  <g class="node-pain">
+    <rect x="105" y="166" width="140" height="28" rx="6" fill="#1e293b" stroke="#818cf8" stroke-width="1" />
+    <text x="175" y="184" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold" class="font-mono">PAIN / CHALLENGE</text>
+  </g>
+  <line x1="175" y1="194" x2="175" y2="212" stroke="#64748b" stroke-width="1.5" />
+  <polygon points="175,216 171,208 179,208" fill="#64748b" />
+
+  <!-- Node 3: GIVE UP? NO -->
+  <rect x="110" y="220" width="130" height="26" rx="6" fill="#0f172a" stroke="#64748b" stroke-width="1" />
+  <text x="175" y="237" text-anchor="middle" fill="#94a3b8" font-size="10" class="font-mono">GIVE UP? ➔ NO</text>
+
+  <line x1="175" y1="246" x2="175" y2="264" stroke="#64748b" stroke-width="1.5" />
+  <polygon points="175,268 171,260 179,260" fill="#64748b" />
+
+  <!-- Node 4: ADAPT & EVOLVE -->
+  <g class="node-adapt">
+    <rect x="105" y="272" width="140" height="28" rx="6" fill="#1e293b" stroke="#c084fc" stroke-width="1" />
+    <text x="175" y="290" text-anchor="middle" fill="#f8fafc" font-size="11" font-weight="bold" class="font-mono">ADAPT &amp; EVOLVE</text>
+  </g>
+  <line x1="175" y1="300" x2="175" y2="318" stroke="#64748b" stroke-width="1.5" />
+  <polygon points="175,322 171,314 179,314" fill="#64748b" />
+
+  <!-- Node 5: LIMIT REACHED? -->
+  <rect x="110" y="326" width="130" height="26" rx="6" fill="#0f172a" stroke="#64748b" stroke-width="1" />
+  <text x="175" y="343" text-anchor="middle" fill="#94a3b8" font-size="10" class="font-mono">LIMIT? ➔ BREAK</text>
+
+  <line x1="175" y1="352" x2="175" y2="370" stroke="#ec4899" stroke-width="1.5" />
+  <polygon points="175,374 171,366 179,366" fill="#ec4899" />
+
+  <!-- Node 6: TRANSCEND (FINAL) -->
+  <g class="node-transcend">
+    <rect x="85" y="380" width="180" height="34" rx="8" fill="#1e1b4b" stroke="#ec4899" stroke-width="1.5" />
+    <text x="175" y="402" text-anchor="middle" fill="#f472b6" font-size="12" font-weight="bold" class="font-mono">👑 TRANSCEND ⚡</text>
+  </g>
+
+  <text x="175" y="440" text-anchor="middle" fill="#64748b" font-size="10" class="font-mono">while True: evolve()</text>
+
+  <!-- ================= RIGHT COLUMN: CODE & SYSTEM OVERVIEW ================= -->
+  
+  <!-- Right Top: Code Window -->
+  <rect x="350" y="56" width="488" height="255" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+  
+  <!-- Terminal Prompt -->
+  <text x="370" y="82" fill="#10b981" font-size="12" font-weight="bold" class="font-mono">$</text>
+  <text x="385" y="82" fill="#f1f5f9" font-size="12" class="font-mono">python3 -m core.crown_of_thorns</text>
+  <rect x="660" y="70" width="8" height="14" fill="#38bdf8" class="cursor" />
+
+  <line x1="370" y1="94" x2="820" y2="94" stroke="#334155" stroke-width="0.8" />
+
+  <!-- Code text formatted with syntax highlight colors -->
+  <g class="font-mono" font-size="11">
+    <text x="370" y="116">
+      <tspan fill="#ec4899">class</tspan> <tspan fill="#38bdf8">CrownOfThorns</tspan><tspan fill="#94a3b8">:</tspan>
+    </text>
+    <text x="388" y="134">
+      <tspan fill="#ec4899">def</tspan> <tspan fill="#818cf8">wear</tspan><tspan fill="#94a3b8">(self):</tspan>
+    </text>
+    <text x="406" y="152">
+      <tspan fill="#ec4899">while</tspan> <tspan fill="#e2e8f0">self.pain:</tspan>
+    </text>
+    <text x="424" y="170">
+      <tspan fill="#e2e8f0">self.grow(); self.bleed();</tspan> <tspan fill="#f59e0b">self.never_break()</tspan>
+    </text>
+    
+    <text x="388" y="196">
+      <tspan fill="#ec4899">def</tspan> <tspan fill="#818cf8">evolve</tspan><tspan fill="#94a3b8">(self):</tspan>
+    </text>
+    <text x="406" y="214">
+      <tspan fill="#ec4899">return</tspan> <tspan fill="#38bdf8">self.transcend()</tspan> <tspan fill="#ec4899">if</tspan> <tspan fill="#e2e8f0">self.understand()</tspan> <tspan fill="#ec4899">else</tspan> <tspan fill="#f43f5e">self.suffer()</tspan>
+    </text>
+
+    <text x="388" y="240">
+      <tspan fill="#ec4899">def</tspan> <tspan fill="#818cf8">become_legend</tspan><tspan fill="#94a3b8">(self):</tspan>
+    </text>
+    <text x="406" y="258">
+      <tspan fill="#ec4899">return</tspan> <tspan fill="#a855f7">self.remain()</tspan> <tspan fill="#ec4899">if</tspan> <tspan fill="#94a3b8">world.forget()</tspan> <tspan fill="#ec4899">else</tspan> <tspan fill="#22c55e">self.inspire()</tspan>
+    </text>
+
+    <text x="370" y="286">
+      <tspan fill="#64748b"># [RUNNING] Loop unlocked: status = TRANSCENDENT</tspan>
+    </text>
+  </g>
+
+  <!-- Right Bottom: System Overview Card -->
+  <rect x="350" y="323" width="488" height="135" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1" />
+  
+  <text x="370" y="348" fill="#a855f7" font-size="12" font-weight="bold" class="font-mono">
+    ⚙️ SYSTEM_OVERVIEW // CORE METRICS
+  </text>
+  <line x1="370" y1="358" x2="820" y2="358" stroke="#334155" stroke-width="0.8" />
+
+  <g class="font-mono" font-size="11.5">
+    <text x="370" y="380">
+      <tspan fill="#94a3b8">mind:  </tspan><tspan fill="#38bdf8">transcending... [██████████] 100%</tspan>
+    </text>
+    <text x="370" y="400">
+      <tspan fill="#94a3b8">body:  </tspan><tspan fill="#818cf8">evolving...     [██████████] 100%</tspan>
+    </text>
+    <text x="370" y="420">
+      <tspan fill="#94a3b8">soul:  </tspan><tspan fill="#c084fc">infinite...     [██████████] ∞</tspan>
+    </text>
+    <text x="370" y="442">
+      <tspan fill="#94a3b8">power: </tspan><tspan class="limitless-pulse">⚡ LIMITLESS</tspan>
+    </text>
+  </g>
+
+</svg>
