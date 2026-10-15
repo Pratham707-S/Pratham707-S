@@ -190,7 +190,7 @@ while True:
 ### 🌐 Let’s Connect & Build Together
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-whoami--pratham.vercel.app-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://whoami-pratham.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Pratham_Tiwari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pratham-tiwari)
+
 [![Email](https://img.shields.io/badge/Gmail-Pratham.1226667@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Pratham.1226667@gmail.com)
 [![Resume](https://img.shields.io/badge/Resume-PDF-F59E0B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://whoami-pratham.vercel.app/resume.pdf)
 
