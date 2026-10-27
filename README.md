@@ -21,7 +21,6 @@ Full-stack developer focused on clean, scalable web products.
 <img align="right" src="./assets/developer-desk.gif" width="250" alt="Animated developer working at a desk" />
 
 - 🔭 **Building robust, scalable full-stack web applications from scratch**
-- ⚡ **Competitive Programming & Problem Solving on [Codeforces](https://codeforces.com/profile/Pratham2506) — Comeback mode ON! 🚀**
 - 🌱 **Deeply exploring advanced system design and high-performance architectures**
 - ⚙️ **Writing clean, maintainable code focused on reliability and speed**
 
@@ -115,7 +114,7 @@ Full-stack developer focused on clean, scalable web products.
 
 <br />
 
-[![Codeforces Profile](https://img.shields.io/badge/Codeforces-Pratham2506-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Pratham2506)
+
 
 </div>
 
