@@ -7,7 +7,7 @@
 ### Full-stack developer building thoughtful, responsive web experiences
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-whoami--pratham-0ea5e9?style=flat-square&logo=vercel&logoColor=white)](https://whoami-pratham.vercel.app/)
-
+[![Codeforces](https://img.shields.io/badge/Codeforces-Pratham2506-1F8ACB?style=flat-square&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Pratham2506)
 [![Email](https://img.shields.io/badge/Email-Pratham.1226667@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:Pratham.1226667@gmail.com)
 [![Profile views](https://hits.sh/github.com/Pratham707-S.svg?style=flat-square&label=Profile%20views&color=0ea5e9)](https://github.com/Pratham707-S)
 [![GitHub followers](https://img.shields.io/github/followers/Pratham707-S?style=flat-square&color=0ea5e9)](https://github.com/Pratham707-S?tab=followers)
@@ -21,6 +21,7 @@ Full-stack developer focused on clean, scalable web products.
 <img align="right" src="./assets/developer-desk.gif" width="250" alt="Animated developer working at a desk" />
 
 - 🔭 **Building robust, scalable full-stack web applications from scratch**
+- ⚡ **Competitive Programming & Problem Solving on [Codeforces](https://codeforces.com/profile/Pratham2506) — Comeback mode ON! 🚀**
 - 🌱 **Deeply exploring advanced system design and high-performance architectures**
 - ⚙️ **Writing clean, maintainable code focused on reliability and speed**
 
@@ -101,6 +102,22 @@ Full-stack developer focused on clean, scalable web products.
 | [E-commerce React Course](https://github.com/Pratham707-S/ecommerce-react-course) | E-commerce work built while learning React. |
 | [Video Calling App](https://github.com/Pratham707-S/video-calling-app) | An experiment in building a video-calling experience. |
 | [Portfolio](https://whoami-pratham.vercel.app/) | A collection of my work and experiments. |
+
+---
+
+## ⚔️ Competitive Programming Comeback
+
+<div align="center">
+
+<a href="https://codeforces.com/profile/Pratham2506" target="_blank">
+  <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Pratham2506&theme=dark" alt="Codeforces Stats for Pratham2506" />
+</a>
+
+<br />
+
+[![Codeforces Profile](https://img.shields.io/badge/Codeforces-Pratham2506-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Pratham2506)
+
+</div>
 
 ---
 
@@ -190,7 +207,7 @@ while True:
 ### 🌐 Let’s Connect & Build Together
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-whoami--pratham.vercel.app-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://whoami-pratham.vercel.app/)
-
+[![Codeforces](https://img.shields.io/badge/Codeforces-Pratham2506-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/Pratham2506)
 [![Email](https://img.shields.io/badge/Gmail-Pratham.1226667@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Pratham.1226667@gmail.com)
 [![Resume](https://img.shields.io/badge/Resume-PDF-F59E0B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://whoami-pratham.vercel.app/resume.pdf)
 
