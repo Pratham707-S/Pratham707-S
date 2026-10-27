@@ -104,19 +104,7 @@ Full-stack developer focused on clean, scalable web products.
 
 ---
 
-## ⚔️ Competitive Programming Comeback
 
-<div align="center">
-
-<a href="https://codeforces.com/profile/Pratham2506" target="_blank">
-  <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Pratham2506&theme=dark" alt="Codeforces Stats for Pratham2506" />
-</a>
-
-<br />
-
-
-
-</div>
 
 ---
 
